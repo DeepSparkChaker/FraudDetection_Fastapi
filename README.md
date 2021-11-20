@@ -1,8 +1,14 @@
 ﻿# TL; DR:
 
+<<<<<<< HEAD
 In this article, we are going to build a # FraudDetection_Fastapi
 this api will detect fraud 
 
+=======
+In this article, we are going to build a # FraudDetection_Fastapi
+this api will detect fraud 
+
+>>>>>>> 726fe96c67bafaeb984f22813a40b7e9bbb0d08c
  Using FastAPI create REST API calls to predict from the model, and finally containerize it using Docker 😃
 I want to emphasize the usage of FastAPI and how rapidly this framework is a game-changer for building easy to go and much faster API calls for a machine learning pipeline.
 Traditionally, we have been using Flask Microservices for building REST API calls but the process involves a bit of nitty-gritty to understand the framework and implement it.
@@ -41,9 +47,15 @@ docker build -t api .
 
 docker run -d -p 5000:5000 api
 
+<<<<<<< HEAD
 #
 http://192.168.99.100:5000/docs#/default/predict_fraud_predict_fraud_post
 
+=======
+#
+http://192.168.99.100:5000/docs#/default/predict_fraud_predict_fraud_post
+
+>>>>>>> 726fe96c67bafaeb984f22813a40b7e9bbb0d08c
  Conclusion:
 
 After going through the process of working around FastAPI and Docker, I feel this skillset is a necessary repertoire in a data scientist's toolkit. The process of building around our model and deploying it has become easier and much more accessible than it was before.

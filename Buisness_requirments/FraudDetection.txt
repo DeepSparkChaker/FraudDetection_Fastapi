@@ -1,0 +1,18 @@
+Due to rapid growth in field of cashless or digital 
+transactions, credit cards are widely used in all 
+around the world. Credit cards providers are 
+issuing thousands of cards to their customers.
+ Providers have to ensure all the credit card users 
+should be genuine and real. Any mistake in issuing 
+a card can be reason of financial crises. 
+Due to rapid growth in cashless transaction,
+ the chances of number of fraudulent transactions can also increasing.
+ A Fraud transaction can be identified by analyzing various
+ behaviors of credit card customers from previous 
+transaction history datasets. If any deviation
+ is noticed in spending behavior from available patterns, 
+it is possibly of fraudulent transaction. 
+Data mining and machine learning techniques are widely used in credit card 
+fraud detection. In this survey paper we are presenting review 
+of various data mining and machine learning methods
+ which are widely used for credit card fraud detections.
