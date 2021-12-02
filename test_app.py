@@ -1,5 +1,5 @@
 import requests as r
-# add review
+# add transactions
 review ={
 "step":50,
 "type":"PAYMENT",
@@ -22,7 +22,7 @@ test2={"step":234,
        "oldbalanceDest":1569390.8999999999,
        "newbalanceDest":1875213.4199999999}
 
-review3={
+test3={
   "step": [
     0,234
   ],
@@ -51,9 +51,9 @@ review3={
     0,1875213.4199999999
   ]
 }
-keys = {"request": review}
+keys = {"request": test1}
 keys2 = {"item": test2}
-#prediction = r.get("http://127.0.0.1:4000/'modamed'")
-prediction = r.post("http://127.0.0.1:4000/predict-fraud",  json=review3)
+#prediction = r.get("http://127.0.0.1:4000/'chaka'")
+prediction = r.post("http://127.0.0.1:4000/predict-fraud",  json=test3)
 results=prediction.json()
 print(results )
