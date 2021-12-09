@@ -79,7 +79,7 @@ async  def predict_fraud(item :ClientData):
   # perform prediction
   #df =pd.DataFrame([item])
   h=item.dict()
-  df=pd.DataFrame.from_dict(h, orient="columns").reset_index()
+  df=pd.DataFrame.from_dict(h, orient="columns")
   prediction = model.predict(df)
   prediction_final=["Fraud" if (x > 0.5) else "Not Fraud" for x in prediction ]
   return prediction_final
